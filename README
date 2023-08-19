@@ -1,0 +1,6 @@
+Issues:
+1. Cannot save trained models
+  Causes:
+    Model with `Text Vectorization` layer does not support saving in .h5 format.
+  Soluton: 
+    Preprocess data in the pipeline before feeding to the model.
